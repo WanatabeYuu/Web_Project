@@ -1,0 +1,159 @@
+﻿
+@{
+    Layout = null;
+}
+
+<header>
+    <!-- TOP HEADER -->
+    <div id="top-header">
+        <div class="container">
+            <ul class="header-links pull-left">
+                <font color="white">
+                    <li>0399432909</li>
+                    <li>17110009@student.hcmute.edu.vn</li>
+                    <li>Đại học SPKT</li>
+                    <li><a href="/Support/Index">Contact Us</a></li>
+                </font>
+            </ul>
+            @{
+                var session = Session["cus_Name"];
+            }
+            @if (session == null)
+            {
+                <ul class="header-links pull-right">
+                    <li><a href="/Account/Login"><i class="fa fa-user-o"></i> Login</a></li>
+                </ul>
+            }
+            else
+            {
+                <ul class="header-links pull-right">
+                    <li class="dropdown">
+                        <a href="#" class="dropbtn">Hello @Session["cus_Name"]</a>
+                        <div class="dropdown-content">
+                            <a href="/Account/Edit?id=@Session["cus_id"]">Edit &nbsp;</a>
+                            <a href="/Account/ChangePassword">Change Password</a>
+                            <a href="/Account/Logout">Logout</a>
+                        </div>
+                    </li>
+                </ul>
+            }
+
+        </div>
+    </div>
+    <!-- /TOP HEADER -->
+    <!-- MAIN HEADER -->
+    <div id="header">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            <div class="row">
+                <!-- LOGO -->
+                <div class="col-md-3">
+                    <div class="header-logo">
+                        <a href="#" class="logo">
+                            <img src="~/Assets/Home/img/logo.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <!-- /LOGO -->
+                <!-- SEARCH BAR -->
+                <div class="col-md-6">
+                    <div class="header-search">
+                        <form action="~/Product/Store">
+                            <select class="input-select" id="search" name="groupid">
+                                <option value="">All</option>
+                                <option value="1">Laptop</option>
+                                <option value="2">VGA</option>
+                                <option value="4">HeadPhone</option>
+                                <option value="3">MainBoard</option>
+
+                            </select>
+                            <input id="search" name="searchString" class="input" placeholder="Search here">
+                            <button class="search-btn" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- /SEARCH BAR -->
+                <!-- ACCOUNT -->
+                <div class="col-md-3 clearfix">
+                    <div class="header-ctn">
+                        <!-- Wishlist -->
+                        <div>
+                            <a href="#">
+                            </a>
+                        </div>
+                        <!-- /Wishlist -->
+                        <!-- Cart -->
+
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                <i class="fa fa-shopping-cart"></i>
+                                <span>Your Cart</span>
+                                <div class="qty"></div>
+                            </a>
+                            <div class="cart-dropdown">
+                                @{ var sscard = Session["Cart"];}
+                                @if (sscard == null)
+                                {
+                                    <div class="cart-list">
+                                        <h5>Nothing in your cart</h5>
+                                    </div>
+                                }
+                                else
+                                {
+                                    <div class="cart-list">
+                                        @foreach (var item in (List<Web_bh.Models.CartItem>)Session["Cart"])
+                                        {
+                                            <div class="product-widget">
+                                                <div class="product-img">
+                                                    <img src="@Url.Content(item.Product.Image)" alt="Sample Image" style="height:50px;width:100px;" />
+                                                </div>
+                                                <div class="product-body">
+                                                    <h3 class="product-name"><a href="#">@item.Product.Name</a></h3>
+                                                    <h4 class="product-price"><span class="qty">@item.Quantity</span> $</h4>
+                                                </div>
+                                                <button class="delete"><i class="fa fa-close"></i></button>
+                                            </div>
+                                        };
+                                    </div>
+                                    <div class="cart-summary">
+                                        @{
+                                            List<Web_bh.Models.CartItem> temp = (List<Web_bh.Models.CartItem>)Session["Cart"];
+                                            var total = string.Format("{0:N0}", temp.Sum(x => x.Quantity * x.Product.PriceNew));
+                                        }
+                                        @{
+                                            List<Web_bh.Models.CartItem> temp2 = (List<Web_bh.Models.CartItem>)Session["Cart"];
+                                            var quaity = temp2.Count().ToString();
+                                        }
+                                        <small>x @quaity item</small>
+                                        <h5>@total$</h5>
+                                    </div>
+                                }
+
+                                <div class="cart-btns">
+                                    <a href="/Cart/Index">View Cart</a>
+                                    <a href="/Cart/Checkout">Checkout  <i class="fa fa-arrow-circle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- /Cart -->
+                        <!-- Menu Toogle -->
+                        <div class="menu-toggle">
+                            <a href="#">
+                                <i class="fa fa-bars"></i>
+                                <span>Menu</span>
+                            </a>
+                        </div>
+                        <!-- /Menu Toogle -->
+                    </div>
+                </div>
+                <!-- /ACCOUNT -->
+            </div>
+            <!-- row -->
+        </div>
+        <!-- container -->
+    </div>
+    <!-- /MAIN HEADER -->
+    <!-- Logout Modal-->
+</header>
+

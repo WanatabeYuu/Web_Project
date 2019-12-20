@@ -1,0 +1,28 @@
+﻿@using Web_bh.EF
+@{
+    ViewBag.Title = "TT";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdminPage.cshtml";
+}
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <div class="panel-body">
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered table-hover">
+                    <tr>
+                        <td>Total</td>
+                        <td>
+                            @{
+                                List<OrderDetail> temp = new List<OrderDetail>();
+                                var total = string.Format("{0:N0}", temp.Sum(x => x.Price));
+                            }
+                            @total $
+                        </td>
+                    </tr>
+                </table>
+                <br />
+            </div>
+        </div>
+    </div>
+</div>
+

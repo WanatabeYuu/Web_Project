@@ -1,0 +1,93 @@
+﻿@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <title>Electro - HTML Ecommerce Template</title>
+
+    <!-- Google font -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/Home/css/bootstrap.min.css" />
+
+    <!-- Slick -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/Home/css/slick.css" />
+    <link type="text/css" rel="stylesheet" href="~/Assets/Home/css/slick-theme.css" />
+
+    <!-- nouislider -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/Home/css/nouislider.min.css" />
+
+    <!-- Font Awesome Icon -->
+    <link rel="stylesheet" href="~/Assets/Home/css/font-awesome.min.css">
+
+    <!-- Custom stlylesheet -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/Home/css/style.css" />
+    <!-- Chat -->
+    <link type="text/css" rel="stylesheet" href="~/Assets/Home/css/UIchat.css" />
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+    <!-- HEADER -->
+    @RenderPage("~/Views/Shared/_Header.cshtml")
+    <!-- /HEADER -->
+    <!-- NAVIGATION -->
+    @Html.Partial("_NAVIGATION")
+    <!-- /NAVIGATION -->
+    @RenderBody()
+    <!-- FOOTER -->
+    @RenderPage("~/Views/Shared/_Footer.cshtml")
+    <!-- /FOOTER -->
+    <!-- jQuery Plugins -->
+    <script src="~/Assets/Home/js/jquery.min.js"></script>
+    <script src="~/Assets/Home/js/bootstrap.min.js"></script>
+    <script src="~/Assets/Home/js/slick.min.js"></script>
+    <script src="~/Assets/Home/js/nouislider.min.js"></script>
+    <script src="~/Assets/Home/js/jquery.zoom.min.js"></script>
+    <script src="~/Assets/Home/js/main.js"></script>
+    
+</body>
+</html>
+<script>
+
+    function deselect(e) {
+        $('.pop').slideFadeToggle(function () {
+            e.removeClass('selected');
+        });
+    }
+
+    $(function () {
+        $('#contact').on('click', function () {
+            if ($(this).hasClass('selected')) {
+                deselect($(this));
+            } else {
+                $(this).addClass('selected');
+                $('.pop').slideFadeToggle();
+            }
+            return false;
+        });
+
+        $('.close').on('click', function () {
+            deselect($('#contact'));
+            return false;
+        });
+    });
+
+    $.fn.slideFadeToggle = function (easing, callback) {
+        return this.animate({ opacity: 'toggle', height: 'toggle' }, 'fast', easing, callback);
+    };
+</script>
+
+

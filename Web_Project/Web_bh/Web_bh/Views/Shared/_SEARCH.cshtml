@@ -1,0 +1,14 @@
+﻿@using (Html.BeginForm("Index", "Customers", FormMethod.Get))
+
+@using (Html.BeginForm("Index", "Customers", FormMethod.Get))
+{
+    <div class="header-search">
+        <form>
+            <select class="input-select">
+                <option value="0"></option>
+            </select>
+            <input id="search" name="searchString" class="input" placeholder="Search here">
+            <button class="search-btn" type="submit">Search</button>
+        </form>
+    </div>
+}

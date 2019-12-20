@@ -1,0 +1,101 @@
+﻿@using Web_bh.Models
+
+@model List<Web_bh.Models.CartItem>
+@{
+    ViewBag.Title = "CheckOut";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<body>
+    <!-- SECTION -->
+    <div class="section">
+        <!-- container -->
+        <div class="container">
+            <!-- row -->
+            @if (Model.Count > 0)
+            {
+                <div class="row">
+                    @using (Html.BeginForm("CheckOut", "Cart", FormMethod.Post))
+                    {
+                        <div class="col-md-7">
+                            <!-- Billing Details -->
+
+                            <div class="billing-details">
+                                <div class="section-title">
+                                    <h3 class="title">Billing address</h3>
+                                </div>
+                                <table>
+                                    <tr>
+                                        <td>
+                                            <input class="input" type="text" name="address" placeholder="Address">
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input class="input" type="tel" name="tel" placeholder="Telephone">
+                                        </td>
+                                    </tr>
+                                </table>
+                            </div>
+
+
+                            <!-- Order notes -->
+                            <!-- /Order notes -->
+                        </div>
+
+                    <div class="col-md-5 order-details">
+                        <div class="section-title text-center">
+                            <h3 class="title">Your Order</h3>
+                        </div>
+                        <div class="order-summary">
+                            <div class="order-col">
+                                <div><strong>PRODUCT</strong></div>
+                                <div><strong>TOTAL</strong></div>
+                            </div>
+                            <div class="order-products">
+                                @foreach (var item in Model)
+                                {
+                                    <div class="order-col">
+                                        <div>x(@item.Quantity)  @item.Product.Name</div>
+                                        <div>@item.Product.PriceNew</div>
+                                    </div>
+                                }
+                            </div>
+                            <div class="order-col">
+                                <div>Shiping</div>
+                                <div><strong>FREE</strong></div>
+                            </div>
+                            <div class="order-col">
+                                @{
+                                    List<CartItem> temp = (List<CartItem>)Session["Cart"];
+                                    var total = string.Format("{0:N0}", temp.Sum(x => x.Quantity * x.Product.PriceNew));
+                                }
+                                <div><strong>TOTAL</strong></div>
+                                <div><strong class="order-total">@total $</strong></div>
+                            </div>
+                            <button type="submit" class="primary-btn order-submit">Place order</button>
+
+                        </div>
+
+                    </div>
+                                    }
+                    <!-- Order Details -->
+                    <!-- /Order Details -->
+                </div>
+            }
+            else
+            {
+                <span class="alert alert-danger">Chưa có sản phẩm nào trong giỏ hàng</span>
+            }
+            <!-- /row -->
+        </div>
+        <!-- /container -->
+    </div>
+    <!-- /SECTION -->
+    <!-- NEWSLETTER -->
+    <!-- /NEWSLETTER -->
+</body>
+
+
+

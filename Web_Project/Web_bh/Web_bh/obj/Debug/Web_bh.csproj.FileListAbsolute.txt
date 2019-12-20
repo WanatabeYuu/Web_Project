@@ -1,0 +1,262 @@
+D:\Danltw\Web_bh\bin\Web_bh.dll.config
+D:\Danltw\Web_bh\bin\Web_bh.dll
+D:\Danltw\Web_bh\bin\Web_bh.pdb
+D:\Danltw\Web_bh\bin\roslyn\csc.exe
+D:\Danltw\Web_bh\bin\roslyn\csc.exe.config
+D:\Danltw\Web_bh\bin\roslyn\csc.rsp
+D:\Danltw\Web_bh\bin\roslyn\csi.exe
+D:\Danltw\Web_bh\bin\roslyn\csi.exe.config
+D:\Danltw\Web_bh\bin\roslyn\csi.rsp
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Danltw\Web_bh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Danltw\Web_bh\bin\roslyn\System.AppContext.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Collections.Immutable.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Console.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Danltw\Web_bh\bin\roslyn\System.IO.Compression.dll
+D:\Danltw\Web_bh\bin\roslyn\System.IO.FileSystem.dll
+D:\Danltw\Web_bh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Danltw\Web_bh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+D:\Danltw\Web_bh\bin\roslyn\System.IO.Pipes.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Reflection.Metadata.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.AccessControl.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.Claims.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Security.Principal.Windows.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Danltw\Web_bh\bin\roslyn\System.ValueTuple.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Xml.XPath.dll
+D:\Danltw\Web_bh\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Danltw\Web_bh\bin\roslyn\vbc.exe
+D:\Danltw\Web_bh\bin\roslyn\vbc.exe.config
+D:\Danltw\Web_bh\bin\roslyn\vbc.rsp
+D:\Danltw\Web_bh\bin\roslyn\VBCSCompiler.exe
+D:\Danltw\Web_bh\bin\roslyn\VBCSCompiler.exe.config
+D:\Danltw\Web_bh\bin\EntityFramework.dll
+D:\Danltw\Web_bh\bin\EntityFramework.SqlServer.dll
+D:\Danltw\Web_bh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Danltw\Web_bh\bin\Microsoft.Web.Infrastructure.dll
+D:\Danltw\Web_bh\bin\PagedList.dll
+D:\Danltw\Web_bh\bin\PagedList.Mvc.dll
+D:\Danltw\Web_bh\bin\System.Web.Helpers.dll
+D:\Danltw\Web_bh\bin\System.Web.Mvc.dll
+D:\Danltw\Web_bh\bin\System.Web.Razor.dll
+D:\Danltw\Web_bh\bin\System.Web.Webpages.Deployment.dll
+D:\Danltw\Web_bh\bin\System.Web.Webpages.dll
+D:\Danltw\Web_bh\bin\System.Web.Webpages.Razor.dll
+D:\Danltw\Web_bh\bin\EntityFramework.xml
+D:\Danltw\Web_bh\bin\EntityFramework.SqlServer.xml
+D:\Danltw\Web_bh\bin\PagedList.xml
+D:\Danltw\Web_bh\bin\PagedList.Mvc.xml
+D:\Danltw\Web_bh\bin\System.Web.Razor.xml
+D:\Danltw\Web_bh\bin\System.Web.Webpages.xml
+D:\Danltw\Web_bh\bin\System.Web.Webpages.Deployment.xml
+D:\Danltw\Web_bh\bin\System.Web.Webpages.Razor.xml
+D:\Danltw\Web_bh\bin\System.Web.Helpers.xml
+D:\Danltw\Web_bh\bin\System.Web.Mvc.xml
+D:\Danltw\Web_bh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Danltw\Web_bh\obj\Debug\Web_bh.csproj.CopyComplete
+D:\Danltw\Web_bh\obj\Debug\Web_bh.dll
+D:\Danltw\Web_bh\obj\Debug\Web_bh.pdb
+D:\Danltw\Web_bh\bin\Antlr3.Runtime.dll
+D:\Danltw\Web_bh\bin\Newtonsoft.Json.dll
+D:\Danltw\Web_bh\bin\System.Web.Optimization.dll
+D:\Danltw\Web_bh\bin\WebGrease.dll
+D:\Danltw\Web_bh\bin\Antlr3.Runtime.pdb
+D:\Danltw\Web_bh\bin\Newtonsoft.Json.xml
+D:\Danltw\Web_bh\bin\System.Web.Optimization.xml
+D:\Danltw\Web_bh\bin\WebMatrix.Data.dll
+D:\Danltw\Web_bh\bin\WebMatrix.WebData.dll
+D:\Danltw\Web_bh\bin\WebMatrix.Data.xml
+D:\Danltw\Web_bh\bin\WebMatrix.WebData.xml
+D:\Danltw\Web_bh\obj\Debug\Web_bh.csprojAssemblyReference.cache
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Web_bh.dll.config
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Web_bh.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Web_bh.pdb
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\csc.exe
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\csc.exe.config
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\csc.rsp
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\csi.exe
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\csi.exe.config
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\csi.rsp
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.AppContext.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Console.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.IO.Compression.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.Claims.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.ValueTuple.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\vbc.exe
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\vbc.exe.config
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\vbc.rsp
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\VBCSCompiler.exe
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Antlr3.Runtime.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\EntityFramework.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\EntityFramework.SqlServer.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Newtonsoft.Json.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\PagedList.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\PagedList.Mvc.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Helpers.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Mvc.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Optimization.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Razor.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Webpages.Deployment.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Webpages.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Webpages.Razor.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\WebGrease.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\WebMatrix.Data.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\WebMatrix.WebData.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Antlr3.Runtime.pdb
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\EntityFramework.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\EntityFramework.SqlServer.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Newtonsoft.Json.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\PagedList.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\PagedList.Mvc.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Optimization.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\WebMatrix.Data.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\WebMatrix.WebData.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Razor.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Webpages.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Webpages.Deployment.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Webpages.Razor.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Helpers.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\System.Web.Mvc.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\obj\Debug\Web_bh.csproj.CoreCompileInputs.cache
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\obj\Debug\Web_bh.csproj.CopyComplete
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\obj\Debug\Web_bh.dll
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\obj\Debug\Web_bh.pdb
+C:\Users\danhn\OneDrive\Desktop\CODE\Web_bh\Web_bh\obj\Debug\Web_bh.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Web_bh.dll.config
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Web_bh.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Web_bh.pdb
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\csc.exe
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\csc.exe.config
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\csc.rsp
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\csi.exe
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\csi.exe.config
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\csi.rsp
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.AppContext.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Console.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.IO.Compression.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.Claims.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.ValueTuple.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\vbc.exe
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\vbc.exe.config
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\vbc.rsp
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\VBCSCompiler.exe
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Antlr3.Runtime.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\EntityFramework.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\EntityFramework.SqlServer.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Newtonsoft.Json.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\PagedList.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\PagedList.Mvc.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Helpers.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Mvc.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Optimization.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Razor.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Webpages.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Webpages.Razor.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\WebGrease.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\WebMatrix.Data.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\WebMatrix.WebData.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Antlr3.Runtime.pdb
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\EntityFramework.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\EntityFramework.SqlServer.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Newtonsoft.Json.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\PagedList.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\PagedList.Mvc.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Optimization.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\WebMatrix.Data.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\WebMatrix.WebData.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Razor.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Webpages.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Webpages.Razor.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Helpers.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\System.Web.Mvc.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\obj\Debug\Web_bh.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\obj\Debug\Web_bh.csproj.CopyComplete
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\obj\Debug\Web_bh.dll
+C:\Users\Admin\Desktop\Web_bh (1)\Web_bh\Web_bh\obj\Debug\Web_bh.pdb

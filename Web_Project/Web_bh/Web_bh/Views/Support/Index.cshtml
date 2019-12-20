@@ -1,0 +1,54 @@
+﻿@model Web_bh.EF.Support
+@{
+    Layout = null;
+}
+
+<link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+<div class="container" style="width:40%;margin-top:2%">
+
+    <form id="myForm">
+
+        @Html.TextBoxFor(model => model.Phone, new { @class = "form-control", @placeholder = "+84" })
+
+        @Html.TextBoxFor(model => model.Name, new { @class = "form-control", @placeholder = "Name" })
+
+        @Html.TextAreaFor(model => model.Support1, new { @class = "form-control", @placeholder = "Support" })
+
+        <input type="reset" value="Send" class="btn btn-block btn-primary" id="btnSubmit" />
+    </form>
+
+    <div style="text-align:center;display:none" id="loaderDiv">
+       
+    </div>
+</div>
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $("#btnSubmit").click(function () {
+            debugger
+            $("#loaderDiv").show();
+
+            var data = $("#myForm").serialize();
+
+            $.ajax({
+
+                type: "POST",
+                url: "/Support/Index",
+                data: data,
+                success: function (response) {
+                    $("#loaderDiv").hide();
+                    alert("Our staff will contact you in a few minutes");
+                }
+
+            })
+        })
+
+
+    })
+
+
+</script>
+
+<script src="~/Scripts/jquery.validate.min.js"></script>
+<script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>

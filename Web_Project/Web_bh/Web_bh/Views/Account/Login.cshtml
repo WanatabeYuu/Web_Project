@@ -1,0 +1,74 @@
+﻿@model Web_bh.EF.Customer
+
+@{
+    ViewBag.Title = "Login";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Login</title>
+    <!-- Custom fonts for this template-->
+    <link href="~/Assets/Admin/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+    <!-- Custom styles for this template-->
+    <link href="~/Assets/Admin/css/sb-admin.css" rel="stylesheet">
+
+</head>
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <body class="bg-dark">
+        @Html.AntiForgeryToken()
+        <div class="container">
+            <div class="card card-login mx-auto mt-5">
+                <div class="card-header">Login</div>
+                <div class="card-body">
+                    <form>
+                        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            <div class="form-label-group">
+                                @Html.TextBoxFor(m => m.Email, new { @class = "form-control", @placeholder = "Email", @required = "required" })
+                                <label for="Email">Email</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-label-group">
+                                @Html.PasswordFor(m => m.Password, new { @class = "form-control", @placeholder = "Password", @required = "required" })
+                                <label for="Password">Password</label>
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block">Login</button>
+                        @*@ViewBag.Message*@
+                    </form>
+                    <div class="text-center">
+                        <a class="d-block small mt-3" href="/Account/Register">Register an Account</a>
+                        <br />
+                        <a class="d-block small" href="/Account/Forgot">Forgot Password</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap core JavaScript-->
+        <script src="~/Assets/Admin/vendor/jquery/jquery.min.js"></script>
+        <script src="~/Assets/Admin/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Core plugin JavaScript-->
+        <script src="~/Assets/Admin/vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    </body>
+}
+</html>
+
+
+
+

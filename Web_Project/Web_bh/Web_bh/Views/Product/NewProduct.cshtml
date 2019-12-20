@@ -1,0 +1,221 @@
+﻿@model IEnumerable<Web_bh.EF.Product>
+@using Web_bh.Models
+@{
+    Layout = null;
+}
+
+<div class="section">
+    <!-- container -->
+    <div class="container">
+        <!-- row -->
+        <div class="row">
+
+            <!-- section title -->
+            <div class="col-md-12">
+                <div class="section-title">
+                    <h3 class="title">New Products</h3>
+                    <div class="section-nav">
+                        <ul class="section-tab-nav tab-nav">
+                            <li class="active"><a data-toggle="tab" href="#tab1">Laptops</a></li>
+                            <li><a data-toggle="tab" href="#tab2">VGA</a></li>
+                            <li><a data-toggle="tab" href="#tab3">MainBoard</a></li>
+                            <li><a data-toggle="tab" href="#tab4">HeadPhone</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!-- /section title -->
+            <!-- Products tab & slick -->
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="products-tabs">
+                        <!-- tab -->
+                        <div id="tab1" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-1">
+                                <!-- product -->
+                                @foreach (var item in Model.Where(x => x.Group_Product == 1).OrderByDescending(x => x.Date).Take(5).ToList())
+                                {
+
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="/Product/Detail?id=@item.Id">
+                                                <img id="i@(item.Id)" class="img-responsive" alt="@item.Name" src="@Url.Content(item.Image)" />
+                                            </a>
+                                            <div class="product-label">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <p class="product-category">Category</p>
+                                            <h3 class="product-name"><a href="#">@item.Name</a></h3>
+                                            @if (item.PrinceOld == null)
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $</h4>
+                                            }
+                                            else
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $ <del class="product-old-price">@item.PrinceOld $</del></h4>
+                                            }
+
+                                            <div class="product-btns">
+                                                <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                                                <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn" onclick="location.href='@Url.Action("OrderNow", "Cart",new {id = item.Id },null)'"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- /product -->
+                                <!-- product -->
+                                <!-- /product -->
+                            </div>
+                            <div id="slick-nav-1" class="products-slick-nav"></div>
+                        </div>
+                        <!-- /tab -->
+                        <br />
+                        <div id="tab2" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-3">
+                                <!-- product -->
+                                @foreach (var item in Model.Where(x => x.Group_Product == 2).OrderByDescending(x => x.Date).Take(5).ToList())
+                                {
+
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="/Product/Detail?id=@item.Id">
+                                                <img id="i@(item.Id)" class="img-responsive" alt="@item.Name" src="@Url.Content(item.Image)" />
+                                            </a>
+                                            <div class="product-label">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <p class="product-category">Category</p>
+                                            <h3 class="product-name"><a href="#">@item.Name</a></h3>
+                                            @if (item.PrinceOld == null)
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $</h4>
+                                            }
+                                            else
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $ <del class="product-old-price">@item.PrinceOld $</del></h4>
+                                            }
+
+                                            <div class="product-btns">
+                                                <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                                                <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn" onclick="location.href='@Url.Action("OrderNow", "Cart",new {id = item.Id },null)'"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- /product -->
+                                <!-- product -->
+                                <!-- /product -->
+                            </div>
+                            <div id="slick-nav-3" class="products-slick-nav"></div>
+                        </div>
+                        <!-- /tab -->
+                        <br />
+                        <div id="tab3" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-4">
+                                <!-- product -->
+                                @foreach (var item in Model.Where(x => x.Group_Product == 3).OrderByDescending(x => x.Date).Take(5).ToList())
+                                {
+
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="/Product/Detail?id=@item.Id">
+                                                <img id="i@(item.Id)" class="img-responsive" alt="@item.Name" src="@Url.Content(item.Image)" />
+                                            </a>
+                                            <div class="product-label">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <p class="product-category">Category</p>
+                                            <h3 class="product-name"><a href="#">@item.Name</a></h3>
+                                            @if (item.PrinceOld == null)
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $</h4>
+                                            }
+                                            else
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $ <del class="product-old-price">@item.PrinceOld $</del></h4>
+                                            }
+
+                                            <div class="product-btns">
+                                                <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                                                <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn" onclick="location.href='@Url.Action("OrderNow", "Cart",new {id = item.Id },null)'"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- /product -->
+                                <!-- product -->
+                                <!-- /product -->
+                            </div>
+                            <div id="slick-nav-4" class="products-slick-nav"></div>
+                        </div>
+
+                        <!-- /tab -->
+                        <br />
+                        <div id="tab4" class="tab-pane active">
+                            <div class="products-slick" data-nav="#slick-nav-1">
+                                <!-- product -->
+                                @foreach (var item in Model.Where(x => x.Group_Product == 4).OrderByDescending(x => x.Date).Take(5).ToList())
+                                {
+
+                                    <div class="product">
+                                        <div class="product-img">
+                                            <a href="/Product/Detail?id=@item.Id">
+                                                <img id="i@(item.Id)" class="img-responsive" alt="@item.Name" src="@Url.Content(item.Image)" />
+                                            </a>
+                                            <div class="product-label">
+                                                <span class="new">NEW</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-body">
+                                            <p class="product-category">Category</p>
+                                            <h3 class="product-name"><a href="#">@item.Name</a></h3>
+                                            @if (item.PrinceOld == null)
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $</h4>
+                                            }
+                                            else
+                                            {
+                                                <h4 class="product-price">@item.PriceNew $ <del class="product-old-price">@item.PrinceOld $</del></h4>
+                                            }
+
+                                            <div class="product-btns">
+                                                <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                                                <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+                                            </div>
+                                        </div>
+                                        <div class="add-to-cart">
+                                            <button class="add-to-cart-btn" onclick="location.href='@Url.Action("OrderNow", "Cart",new {id = item.Id },null)'"><i class="fa fa-shopping-cart"></i> add to cart</button>
+                                        </div>
+                                    </div>
+                                }
+                                <!-- /product -->
+                                <!-- product -->
+                                <!-- /product -->
+                            </div>
+                            <div id="slick-nav-1" class="products-slick-nav"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- Products tab & slick -->
+        </div>
+        <!-- /row -->
+    </div>
+    <!-- /container -->
+</div>

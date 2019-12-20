@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Web_bh.EF.Product>
+@{
+    Layout = null;
+}
+
+@foreach (var item in Model)
+{
+
+    <div class="product">
+        <div class="product-img">
+            <a href="/Product/Detail?id=@item.Id">
+                <img id="i@(item.Id)" class="img-responsive" alt="@item.Name" src="@Url.Content(item.Image)" />
+            </a>
+            <div class="product-label">
+                <span class="new">NEW</span>
+            </div>
+        </div>
+        <div class="product-body">
+            <p class="product-category">Category</p>
+            <h3 class="product-name"><a href="#">@item.Name</a></h3>
+            @if (item.PrinceOld == null)
+            {
+                <h4 class="product-price">@item.PriceNew $</h4>
+            }
+            else
+            {
+                <h4 class="product-price">@item.PriceNew $ <del class="product-old-price">@item.PrinceOld $</del></h4>
+            }
+
+            <div class="product-btns">
+                <button class="add-to-wishlist"><i class="fa fa-heart-o"></i><span class="tooltipp">add to wishlist</span></button>
+                <button class="add-to-compare"><i class="fa fa-exchange"></i><span class="tooltipp">add to compare</span></button>
+            </div>
+        </div>
+        <div class="add-to-cart">
+            <button class="add-to-cart-btn" onclick="location.href='@Url.Action("OrderNow", "Cart",new {id = item.Id },null)'"><i class="fa fa-shopping-cart"></i> add to cart</button>
+        </div>
+    </div>
+}
+
+
